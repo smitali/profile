@@ -1,4 +1,3 @@
-
 body {
  
   font-family: 'Roboto', sans-serif;
@@ -437,6 +436,7 @@ a.btn:hover {
   top: 0;
   width: 100%;
  }
+/*--skill-section--*/
 
 .skills-section {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
@@ -547,7 +547,6 @@ a.btn:hover {
   left: 0;
   top: 0;
 }
-
 /*====testimonials-section====*/
 
 .testimonials-section {
@@ -884,25 +883,7 @@ a.btn:hover {
   font-size: 20px;
 }
 
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #00BCD4;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 50%;
-}
 
-#myBtn:hover {
-  background-color: #555;
-}
 
 /* ======= Configure Style (Remove in production) ======= */
 .config-trigger {
@@ -1045,16 +1026,17 @@ a.btn:hover {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #00BCD4;
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 4px;
+  border-radius: 50%;
 }
 
 #myBtn:hover {
   background-color: #555;
 }
+
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
