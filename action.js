@@ -82,7 +82,7 @@ function filterSelection(c) {
 
 // Used to toggle the menu on small screens when clicking on the menu button
 
- function toggleFunction(event) {
+function toggleFunction(event) {
   var scrollElement = document.querySelector(event.getAttribute('href'));
   var elemPos = scrollElement.getBoundingClientRect();
   window.scrollTo(0, elemPos.y)
@@ -92,4 +92,20 @@ function filterSelection(c) {
   } else {
     x.className = x.className.replace("show", "");
   }*/
-}   
+}
+
+
+function renderSkillPercentage() {
+  var skillsElement = document.querySelectorAll('.chart-theme');
+  for ( var el = 0; el < skillsElement.length; el++) {
+    var percentage = skillsElement[el].getAttribute('data-percent');
+    radialIndicator(skillsElement[el], {
+        barColor : '#87CEEB',
+        barWidth : 7,
+        initValue : percentage,
+        percentage: true
+    }); 
+  }
+}
+
+renderSkillPercentage();   
