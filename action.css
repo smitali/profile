@@ -839,12 +839,17 @@ a.btn:hover {
 }
 
 .footer .container {
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding: 30px;
   color: #8a8a8a;
   letter-spacing: 0.5px;
-  text-align: center;
+  text-align: center !important;
 }
+
+.copyright {
+  font-size: 80%;
+  font-weight: 400;
+}
+
 .footer .container a {
   color: #8a8a8a;
   text-decoration: none;
@@ -859,158 +864,36 @@ a.btn:hover {
   font-size: 20px;
 }
 
-
-
-/* ======= Configure Style (Remove in production) ======= */
-.config-trigger {
-  position: absolute;
-  top: 30px;
-  left: -36px;
-  width: 36px;
-  height: 36px;
-  background: #222;
-  color: #fff;
-  text-align: center;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
-  background-clip: padding-box;
-  text-decoration: none;
-}
-.config-trigger:hover {
-  background: #000;
-  text-decoration: none;
-}
-.config-trigger:hover .fa {
-  color: #fff;
-}
-.config-trigger .fa {
-  font-size: 22px;
-  padding-top: 7px;
-  display: block;
-  color: rgba(255, 255, 255, 0.8);
-}
-.config-panel {
-  position: absolute;
-  top: 160px;
-  right: -190px;
-  z-index: 30;
-  width: 190px;
-}
-.config-panel .panel-inner {
-  position: relative;
-  background: #222;
-  color: #fff;
-  padding: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
-  background-clip: padding-box;
-}
-.config-panel .panel-title {
-  font-weight: 600;
-  margin-bottom: 15px;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-.config-panel label {
-  color: #fff;
-}
-.config-panel #color-options {
-  margin-bottom: 0px;
-}
-.config-panel #color-options li a {
-  display: block;
-  width: 28px;
-  height: 20px;
-  border: 2px solid transparent;
-  margin-bottom: 10px;
-}
-.config-panel #color-options li a:hover {
-  opacity: 0.9;
-  border: 2px solid rgba(255, 255, 255, 0.8);
-}
-.config-panel #color-options li.active a {
-  border: 2px solid #fff;
-}
-.config-panel #color-options li.theme-1 a {
-  background: #00BCD4;
-}
-.config-panel #color-options li.theme-2 a {
-  background-color: #03A9F4;
-}
-.config-panel #color-options li.theme-3 a {
-  background-color: #009688;
-}
-.config-panel #color-options li.theme-4 a {
-  background-color: #4CAF50;
-}
-.config-panel #color-options li.theme-5 a {
-  background-color: #8BC34A;
-}
-.config-panel #color-options li.theme-6 a {
-  background-color: #C0CA33;
-}
-.config-panel #color-options li.theme-7 a {
-  background-color: #FFC107;
-}
-.config-panel #color-options li.theme-8 a {
-  background-color: #FF9800;
-}
-.config-panel #color-options li.theme-9 a {
-  background-color: #FF5722;
-}
-.config-panel #color-options li.theme-10 a {
-  background-color: #795548;
-}
-.config-panel #color-options li.theme-11 a {
-  background-color: #607D8B;
-}
-.config-panel #color-options li.theme-12 a {
-  background-color: #673AB7;
-}
-.config-panel #color-options li.theme-13 a {
-  background-color: #3F51B5;
-}
-.config-panel #color-options li.theme-14 a {
-  background-color: #2196F3;
-}
-.config-panel #color-options li.theme-15 a {
-  background-color: #9C27B0;
-}
-.config-panel #color-options li.theme-16 a {
-  background-color: #E91E63;
-}
-.config-panel .close {
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  color: #fff;
-}
-.config-panel .close .fa {
-  color: #fff;
-}
-
 #myBtn {
-  display: none;
+  display: inline-block;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
+  bottom: 5px;
+  right: 5px;
+  z-index: 30;
+  font-size: 14px;
   border: none;
   outline: none;
-  background-color: #00BCD4;
-  color: white;
+  background-color: #008fa1;
+  color: #fff;
   cursor: pointer;
-  padding: 15px;
   border-radius: 50%;
+  opacity: 1;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  background-clip: padding-box;
 }
 
+#myBtn .fa {
+    position: relative;
+    bottom: 3px;
+    font-size: 25px;
+    font-weight: normal;
+  }
+
 #myBtn:hover {
-  background-color: #555;
+  background-color: #007888;
 }
 
 
