@@ -100,12 +100,15 @@ function renderSkillPercentage() {
   for ( var el = 0; el < skillsElement.length; el++) {
     var percentage = skillsElement[el].getAttribute('data-percent');
     radialIndicator(skillsElement[el], {
-        barColor : '#87CEEB',
-        barWidth : 7,
+        barColor : '#00BCD4',
+        barWidth : 5,
         initValue : percentage,
-        percentage: true
-    }); 
+        percentage: true,
+        fontColor: '#565454',
+        fontWeight: 80,
+        fontSize: 16
+            }); 
   }
 }
 
-renderSkillPercentage();   
+renderSkillPercentage(); 
