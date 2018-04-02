@@ -99,6 +99,11 @@ a.btn:hover {
   border-color: #fff;
 }
 
+.header .social .fa {
+  text-align: center;
+  padding: 3px 0;
+}
+
 .header .top-bar ul {
   margin-top: 0;
 }
@@ -106,7 +111,6 @@ a.btn:hover {
 .list-inline-item {
   display: inline-block;
 }
-
 
 .header .actions .fa {
   margin-right: 5px;
@@ -131,7 +135,7 @@ a.btn:hover {
 }
 
 .intro .profile-image {
-   position: absolute;
+  position: absolute;
   width: 160px;
   height: 160px;
   top: -80px;
@@ -139,7 +143,8 @@ a.btn:hover {
   left: 50%;
   border-radius: 50%;
   border: 4px solid rgba(255, 255, 255, 0.8);
-}
+  background-image: url("photo_smp.JPG");
+ }
 
 .intro .name {
   font-size: 48px;
