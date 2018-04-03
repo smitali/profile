@@ -61,9 +61,9 @@ function filterSelection(c) {
         items[i].style.display = 'none';
       }
     }
-    
-    }
+  }
 }
+
 
 // sticky page-nav-space-holder
 
