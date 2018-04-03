@@ -82,16 +82,11 @@ function filterSelection(c) {
 
 // Used to toggle the menu on small screens when clicking on the menu button
 
-function toggleFunction(event) {
-  var scrollElement = document.querySelector(event.getAttribute('href'));
-  var elemPos = scrollElement.getBoundingClientRect();
-  window.scrollTo(0, elemPos.y)
-  /* var x = document.getElementById("page-nav-holder");
-  if (x.className.indexOf("show") == -1) {
-    x.className += "show";
-  } else {
-    x.className = x.className.replace("show", "");
-  }*/
+function toggleFunction(event, elem) {
+  event.preventDefault();
+  var scrollElement = document.querySelector(elem.getAttribute('href'));
+  var elemPos = scrollElement.offsetTop;
+  window.scrollTo(0, elemPos - 60)
 }
 
 
