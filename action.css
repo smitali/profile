@@ -1,5 +1,5 @@
 body {
- 
+
   font-family: 'Roboto', sans-serif;
   color: #666;
   background: #f5f5f5;
@@ -10,17 +10,21 @@ body {
   margin-right: 0px;
   margin-left: 0px;
   margin-top: 0px;
-
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 500;
 }
 
 .clearfix::after {
-    display: block;
-    clear: both;
-    content: "";
+  display: block;
+  clear: both;
+  content: "";
 }
 
 .btn,
@@ -144,15 +148,13 @@ a.btn:hover {
   border-radius: 50%;
   border: 4px solid rgba(255, 255, 255, 0.8);
   background-image: url("photo_smp.JPG");
- }
+}
 
 .intro .name {
   font-size: 48px;
   margin-bottom: 15px;
   letter-spacing: 0.5px;
   padding-top: 30px;
-  
-
 }
 
 .intro .title {
@@ -192,7 +194,7 @@ a.btn:hover {
   line-height: 2.5;
   display: inline-block;
   vertical-align: middle;
- }
+}
 
 .contact-info li a {
   color: rgba(255, 255, 255, 0.8);
@@ -209,10 +211,11 @@ a.btn:hover {
   padding-bottom: 20px;
 }
 
+
 /*--page-nav-wrapper--*/
 
 .page-nav-space-holder {
-  
+
   position: relative;
   z-index: 5;
 }
@@ -225,6 +228,7 @@ a.btn:hover {
   width: 100%;
   text-align: center;
 }
+
 .page-nav-wrapper.fixed {
   position: fixed;
   top: 0;
@@ -233,36 +237,44 @@ a.btn:hover {
   z-index: 100;
   background: #00BCD4;
 }
+
 .page-nav-wrapper a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-weight: 500;
 }
+
 .page-nav-wrapper .page-nav {
   margin: 0 auto;
   display: inline-block;
 }
+
 .page-nav-wrapper .page-nav li {
   margin-right: 30px;
   display: inline-block;
   background: none;
 }
+
 .page-nav-wrapper .page-nav li:hover,
 .page-nav-wrapper .page-nav li:active {
   background: none;
 }
+
 .page-nav-wrapper .page-nav li a {
   color: rgba(255, 255, 255, 0.6);
   padding: inherit;
 }
+
 .page-nav-wrapper .page-nav li a:hover {
   color: #fff;
 }
+
 .page-nav-wrapper .page-nav li a:hover,
 .page-nav-wrapper .page-nav li a:active,
 .page-nav-wrapper .page-nav li a:focus {
   background: none;
 }
+
 .page-nav-wrapper .page-nav li a.active {
   color: #fff;
   background: none;
@@ -300,6 +312,7 @@ a.btn:hover {
   font-size: 24px;
   text-align: center;
 }
+
 .timeline {
   border-left: 3px solid #00BCD4;
   border-bottom-right-radius: 2px;
@@ -331,6 +344,7 @@ a.btn:hover {
   background: #fff;
   border: 3px solid #00BCD4;
 }
+
 .timeline .part:after {
   content: "";
   position: absolute;
@@ -397,7 +411,6 @@ a.btn:hover {
   margin-left: 110px;
   margin-right: 110px;
   height: 200px;
-
 }
 
 .education-section .part {
@@ -452,13 +465,15 @@ a.btn:hover {
   height: 120px;
 }
 
+
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
- }
+}
+
 
 /*--skill-section--*/
 
@@ -488,7 +503,7 @@ a.btn:hover {
   margin-bottom: 60px;
 }
 
-.skills-section .top-skills .item-inner{
+.skills-section .top-skills .item-inner {
   width: 33%;
   float: left;
   text-align: center;
@@ -547,6 +562,8 @@ a.btn:hover {
   left: 0;
   top: 0;
 }
+
+
 /*====testimonials-section====*/
 
 .testimonials-section {
@@ -559,11 +576,11 @@ a.btn:hover {
   margin-bottom: 45px;
   margin-left: 110px;
   margin-right: 110px;
- }
+}
 
 
 
- .testimonials-section .fa-quote-left {
+.testimonials-section .fa-quote-left {
   position: absolute;
   left: -60px;
   top: 10px;
@@ -580,6 +597,7 @@ a.btn:hover {
 }
 
 
+
 /*.testimonials-section .quote {
   border-left: none;
   padding: 0;
@@ -589,7 +607,9 @@ a.btn:hover {
   position: relative;
 }*/
 
+
 /* Slideshow container */
+
 .slideshow-container {
   max-width: 800px;
   position: relative;
@@ -598,7 +618,9 @@ a.btn:hover {
   font-family: 'Roboto', sans-serif;
 }
 
+
 /* Caption text */
+
 .text {
   color: #666;
   font-size: 22px;
@@ -618,6 +640,7 @@ a.btn:hover {
 }
 
 
+
 /* Number text (1/3 etc) 
 .numbertext {
   color: #f2f2f2;
@@ -628,7 +651,9 @@ a.btn:hover {
 }
 */
 
+
 /* The dots/bullets/indicators */
+
 .dot {
   cursor: pointer;
   height: 10px;
@@ -641,11 +666,14 @@ a.btn:hover {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #00BCD4;
 }
 
+
 /* Fading animation */
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -657,12 +685,13 @@ a.btn:hover {
   text-align: left;
   padding-left: 90px;
   margin-top: -30px;
-}  
+}
 
 .source .name {
   color: #666;
   font-size: 16px;
-}  
+}
+
 
 /*portfolio-section*/
 
@@ -676,7 +705,6 @@ a.btn:hover {
   margin-bottom: 45px;
   margin-left: 110px;
   margin-right: 110px;
-  
 }
 
 .portfolio-section .filters {
@@ -720,6 +748,7 @@ a.btn:hover {
   margin: 0;
   padding: 0;
 }
+
 .portfolio-section .item .figure img {
   width: 100%;
 }
@@ -757,7 +786,6 @@ a.btn:hover {
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 5px;
-
 }
 
 .portfolio-section .item-inner .content .meta {
@@ -783,6 +811,7 @@ a.btn:hover {
   left: 0;
   top: 0px;
 }
+
 
 /*===contact-section===*/
 
@@ -820,14 +849,12 @@ a.btn:hover {
 #image {
   top: -60px;
   margin-left: -60px;
-
 }
 
 .contact-section .intro p {
   margin-bottom: 15px;
   line-height: 1.5;
   margin-top: 0;
-
 }
 
 .contact-section .list-unstyled {
@@ -869,13 +896,14 @@ a.btn:hover {
   font-size: 24px;
   color: #8a8a8a;
 }
+
 .contact-section .social a:hover {
   color: ;
 }
 
 .contact-section .info {
-  color: #00BCD4;#00BCD4
-  text-decoration: none;
+  color: #00BCD4;
+  #00BCD4 text-decoration: none;
 }
 
 .contact-section .info:hover {
@@ -930,18 +958,20 @@ a.btn:hover {
 }
 
 #myBtn .fa {
-    position: relative;
-    bottom: 3px;
-    font-size: 25px;
-    font-weight: normal;
-  }
+  position: relative;
+  bottom: 3px;
+  font-size: 25px;
+  font-weight: normal;
+}
 
 #myBtn:hover {
   background-color: #007888;
 }
 
 
+
 /* Extra small devices (phones, less than 768px) */
+
 @media (max-width: 767px) {
   .header .social {
     margin: 0 auto;
@@ -958,7 +988,7 @@ a.btn:hover {
     font-size: 12px;
     display: inline-block;
     width: 100%;
-   }
+  }
 
   .header .actions .btn:last-child {
     margin-bottom: 0;
@@ -1045,7 +1075,15 @@ a.btn:hover {
     margin: 0 auto;
   }
 }
+
+
 /* Small devices (tablets, 768px and up) */
+
+
 /* Medium devices (desktops, 992px and up) */
+
+
 /* Large devices (large desktops, 1200px and up) */
+
+
 /* X-Large devices (large desktops, 1400px and up) */
