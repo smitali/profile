@@ -188,8 +188,10 @@ a.btn:hover {
   color: rgba(255, 255, 255, 0.8);
   list-style-type: none;
   float: left;
-  text-align: center;
   width: 33%;
+  line-height: 2.5;
+  display: inline-block;
+  vertical-align: middle;
  }
 
 .contact-info li a {
@@ -412,13 +414,14 @@ a.btn:hover {
   font-size: 18px;
   color: #00BCD4;
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .education-section .education-body {
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 0px;
   font-size: 16px;
+  line-height: 1.5;
 }
 
 .education-section .time {
@@ -452,11 +455,17 @@ a.btn:hover {
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
+
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
  }
+
+ .sticky + .section {
+  padding-top: 60px;
+ }
+
 /*--skill-section--*/
 
 .skills-section {
