@@ -212,6 +212,7 @@ a.btn:hover {
 }
 
 
+
 /*--page-nav-wrapper--*/
 
 .page-nav-space-holder {
@@ -466,6 +467,7 @@ a.btn:hover {
 }
 
 
+
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 
 .sticky {
@@ -473,6 +475,7 @@ a.btn:hover {
   top: 0;
   width: 100%;
 }
+
 
 
 /*--skill-section--*/
@@ -564,6 +567,7 @@ a.btn:hover {
 }
 
 
+
 /*====testimonials-section====*/
 
 .testimonials-section {
@@ -598,6 +602,7 @@ a.btn:hover {
 
 
 
+
 /*.testimonials-section .quote {
   border-left: none;
   padding: 0;
@@ -619,6 +624,7 @@ a.btn:hover {
 }
 
 
+
 /* Caption text */
 
 .text {
@@ -638,6 +644,7 @@ a.btn:hover {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
 
 
 
@@ -672,6 +679,7 @@ a.btn:hover {
 }
 
 
+
 /* Fading animation */
 
 .fade {
@@ -691,6 +699,7 @@ a.btn:hover {
   color: #666;
   font-size: 16px;
 }
+
 
 
 /*portfolio-section*/
@@ -811,6 +820,7 @@ a.btn:hover {
   left: 0;
   top: 0px;
 }
+
 
 
 /*===contact-section===*/
@@ -970,6 +980,7 @@ a.btn:hover {
 
 
 
+
 /* Extra small devices (phones, less than 768px) */
 
 @media (max-width: 767px) {
@@ -1075,6 +1086,7 @@ a.btn:hover {
     margin: 0 auto;
   }
 }
+
 
 
 /* Small devices (tablets, 768px and up) */

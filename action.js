@@ -44,11 +44,9 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-/*portfolio-section
+// portfolio - section
 
-filterSelection("all")
-
-function filterSelection(c) {
+function filterSelection(c, target) {
   var items, i;
   items = document.getElementsByClassName("item");
 
@@ -63,36 +61,20 @@ function filterSelection(c) {
       }
     }
   }
-}*/
+  activateTab('.type', target);
+}
+
+function activateTab(elem, target) {
+  var allElem = document.querySelectorAll(elem);
+  for (var i = 0; i < allElem.length; i++) {
+    allElem[i].classList.remove('active');
+  }
+  target.classList.add('active');
+}
 
 // portfolio-section(check)
 
-filterSelection("all")
-function filterSelection(c , filterName) {
-  var items,i,types;
-  items = document.getElementsByClassName("item");
-  
-  for (i = 0; i < items.length; i++) {
-    if(c === 'all') {
-      items[i].style.display = 'inline-block';
-    } else {
-      if(items[i].classList.contains(c)) {
-        items[i].style.display = 'inline-block';
-      } else {
-        items[i].style.display = 'none';
-      }
-    }
-  }
-  types = document.getElementsByClassName("type");
-  for (i = 0; i < types.length; i++) {
-        types[i].className = types[i].className.replace(" active", "");
-    }
-    document.getElementById(filterName).style.display = "block";
-    c.currentTarget.className += " active";
-}
-
-document.getElementById("defaultOpen").click();
-
+filterSelection("all", document.querySelectorAll('.type')[0]);
 
 // sticky page-nav-space-holder
 
@@ -115,7 +97,8 @@ function toggleFunction(event, elem) {
   event.preventDefault();
   var scrollElement = document.querySelector(elem.getAttribute('href'));
   var elemPos = scrollElement.offsetTop;
-  window.scrollTo(0, elemPos - 60)
+  window.scrollTo(0, elemPos - 60);
+  activateTab('.page-nav .nav-item .scrollto', elem);
 }
 
 
