@@ -44,7 +44,7 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-// portfolio-section
+/*portfolio-section
 
 filterSelection("all")
 function filterSelection(c) {
@@ -62,7 +62,35 @@ function filterSelection(c) {
       }
     }
   }
+}*/
+
+// portfolio-section(check)
+
+filterSelection("all")
+function filterSelection(c , filterName) {
+  var items,i,types;
+  items = document.getElementsByClassName("item");
+  
+  for (i = 0; i < items.length; i++) {
+    if(c === 'all') {
+      items[i].style.display = 'inline-block';
+    } else {
+      if(items[i].classList.contains(c)) {
+        items[i].style.display = 'inline-block';
+      } else {
+        items[i].style.display = 'none';
+      }
+    }
+  }
+  types = document.getElementsByClassName("type");
+  for (i = 0; i < types.length; i++) {
+        types[i].className = types[i].className.replace(" active", "");
+    }
+    document.getElementById(filterName).style.display = "block";
+    c.currentTarget.className += " active";
 }
+
+document.getElementById("defaultOpen").click();
 
 
 // sticky page-nav-space-holder
