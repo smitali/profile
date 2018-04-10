@@ -213,6 +213,7 @@ a.btn:hover {
 
 
 
+
 /*--page-nav-wrapper--*/
 
 .page-nav-space-holder {
@@ -469,6 +470,7 @@ a.btn:hover {
 
 
 
+
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 
 .sticky {
@@ -476,6 +478,7 @@ a.btn:hover {
   top: 0;
   width: 100%;
 }
+
 
 
 
@@ -571,6 +574,7 @@ a.btn:hover {
 
 
 
+
 /*====testimonials-section====*/
 
 .testimonials-section {
@@ -606,6 +610,7 @@ a.btn:hover {
 
 
 
+
 /*.testimonials-section .quote {
       border-left: none;
       padding: 0;
@@ -629,6 +634,7 @@ a.btn:hover {
 
 
 
+
 /* Caption text */
 
 .text {
@@ -648,6 +654,7 @@ a.btn:hover {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
 
 
 
@@ -685,6 +692,7 @@ a.btn:hover {
 
 
 
+
 /* Fading animation */
 
 .fade {
@@ -704,6 +712,7 @@ a.btn:hover {
   color: #666;
   font-size: 16px;
 }
+
 
 
 
@@ -826,6 +835,7 @@ a.btn:hover {
   left: 0;
   top: 0px;
 }
+
 
 
 
@@ -984,125 +994,3 @@ a.btn:hover {
 #myBtn:hover {
   background-color: #007888;
 }
-
-
-
-
-/* Extra small devices (phones, less than 768px) */
-
-@media (max-width: 767px) {
-  .header .social {
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .header .actions {
-    position: static;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-  .header .actions .btn {
-    margin-bottom: 15px;
-    font-size: 12px;
-    display: inline-block;
-    width: 100%;
-  }
-
-  .header .actions .btn:last-child {
-    margin-bottom: 0;
-  }
-  .header .name {
-    font-size: 36px;
-  }
-  .header .title {
-    font-size: 22px;
-  }
-  .header .contact-info li {
-    margin-right: 0;
-    margin-bottom: 15px;
-    font-size: 14px;
-    width: 100%;
-    display: inline-block;
-  }
-  .header .contact-info li:last-child {
-    margin-bottom: 0;
-  }
-  .section {
-    padding: 30px;
-  }
-  .section-title {
-    font-size: 24px;
-  }
-  .timeline {
-    margin-left: 0;
-    padding-right: 0;
-  }
-  .timeline .place {
-    margin-bottom: 5px;
-  }
-  .timeline .job-meta {
-    position: static;
-    margin-bottom: 15px;
-  }
-
-  .education-section .item {
-    padding: 0;
-  }
-  .portfolio-section .filters .type {
-    font-size: 12px;
-    margin-right: 5px;
-    padding: 8px 5px;
-  }
-  .portfolio-section .item-inner .content {
-    padding: 15px;
-  }
-  .portfolio-section .item-inner .content .sub-title {
-    font-size: 14px;
-    max-width: 120px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .portfolio-section .item-inner .content .meta {
-    margin-bottom: 30px;
-    max-width: 120px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .portfolio-section .item-inner .content .action {
-    position: static;
-    font-size: 12px;
-  }
-  .contact-section .intro {
-    padding: 0;
-    text-align: center;
-  }
-  .contact-section .intro .profile-image {
-    position: static;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  .contact-section .service-list {
-    margin-left: 0;
-  }
-  .contact-section .social {
-    margin: 0 auto;
-  }
-}
-
-
-
-/* Small devices (tablets, 768px and up) */
-
-
-/* Medium devices (desktops, 992px and up) */
-
-
-/* Large devices (large desktops, 1200px and up) */
-
-
-/* X-Large devices (large desktops, 1400px and up) */
