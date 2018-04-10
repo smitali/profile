@@ -116,7 +116,24 @@
   .contact-section {
     margin: 0px 10px;
   }
+  .education-section .item-inner,
+  .skills-section .top-skills .item-inner {
+    float: none;
+    width: 100%;
+  }
+  .testimonials-section .text p {
+    font-size: 15px;
+  }
+  .portfolio-section .item {
+    width: 47%;
+  }
+  .header .actions .btn.d-none {
+    display: none;
+  }
 }
+
+
+
 
 
 

@@ -11,6 +11,10 @@ body {
   margin-top: 0px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -212,8 +216,6 @@ a.btn:hover {
 
 
 
-
-
 /*--page-nav-wrapper--*/
 
 .page-nav-space-holder {
@@ -404,7 +406,7 @@ a.btn:hover {
 
 .education-section {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-  padding: 45px;
+  padding: 30px 55px;
   background: #fff;
   border-radius: 2px;
   background-clip: padding-box;
@@ -412,15 +414,12 @@ a.btn:hover {
   margin-bottom: 45px;
   margin-left: 110px;
   margin-right: 110px;
-  height: 200px;
-}
-
-.education-section .part {
-  margin-bottom: 45px;
 }
 
 .education-section .item-inner {
-  padding: 0 30px;
+  float: left;
+  width: 33.32%;
+  padding: 10px 30px;
 }
 
 .education-section .degree {
@@ -442,30 +441,6 @@ a.btn:hover {
   margin-bottom: 15px;
 }
 
-.education-section .desc {
-  color: #666;
-}
-
-.education-section .col-1 {
-  position: absolute;
-  left: 150px;
-  width: 400px;
-  height: 120px;
-}
-
-.education-section .col-2 {
-  position: absolute;
-  left: 550px;
-  width: 400px;
-  height: 120px;
-}
-
-.education-section .col-3 {
-  position: absolute;
-  left: 950px;
-  width: 300px;
-  height: 120px;
-}
 
 
 
@@ -478,6 +453,7 @@ a.btn:hover {
   top: 0;
   width: 100%;
 }
+
 
 
 
@@ -575,6 +551,10 @@ a.btn:hover {
 
 
 
+
+
+
+
 /*====testimonials-section====*/
 
 .testimonials-section {
@@ -655,22 +635,6 @@ a.btn:hover {
   margin-bottom: 1rem;
 }
 
-
-
-
-
-/* Number text (1/3 etc) 
-      .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-      }
-      */
-
-
-/* The dots/bullets/indicators */
 
 .dot {
   cursor: pointer;
@@ -839,7 +803,6 @@ a.btn:hover {
 
 
 
-
 /*===contact-section===*/
 
 .contact-section {
@@ -852,7 +815,6 @@ a.btn:hover {
   margin-bottom: 45px;
   margin-left: 110px;
   margin-right: 110px;
-  height: 550px;
   line-height: 25px;
 }
 
